@@ -9,6 +9,7 @@ import shap
 import lime
 import lime.lime_tabular
 
+
 def explain_model_global(hybrid_model, X_train_encoded, feature_names, output_dir):
     """
     Computes global feature contributions using SHAP KernelExplainer.
